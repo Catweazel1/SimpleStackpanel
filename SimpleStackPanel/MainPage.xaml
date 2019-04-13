@@ -8,7 +8,19 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-    <Grid>
-
-    </Grid>
+    <StackPanel>
+        <StackPanel>
+            <TextBlock>First</TextBlock>
+            <TextBlock>Second</TextBlock>
+            <TextBlock>Third</TextBlock>
+            <StackPanel Orientation="Horizontal">
+                <TextBlock>Fourth</TextBlock>
+                <TextBox></TextBox>
+                <Button>Sixth</Button>
+            </StackPanel>
+            <StackPanel Height="200">
+                <Rectangle Fill="Red" Height="100"/>
+            </StackPanel>
+        </StackPanel>
+    </StackPanel>
 </Page>
